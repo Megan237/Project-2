@@ -4,7 +4,7 @@ import java.util.List;
  * This class will implement the C-SCAN 
  * disk scheduling algorithm.
  * 
- * @author ...
+ * @SamGross @MeganStinefield
  */
 public class CSCAN implements IDiskAlgorithm {
 
