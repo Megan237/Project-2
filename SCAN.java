@@ -4,8 +4,8 @@ import java.util.List;
 /**
  * This class will implement the SCAN 
  * disk scheduling algorithm.
- * 
- * @author ...
+ *
+ * @SamGross @MeganStinefield
  */
 public class SCAN implements IDiskAlgorithm {
 
