@@ -13,7 +13,7 @@ public class Main {
 		IDiskAlgorithm diskAlgorithm;
 		diskAlgorithm = new FCFS();
 		
-		System.out.println(diskAlgorithm.calculateDistance(requests1, 0));
+		System.out.println(diskAlgorithm.calculateDistance(requests1, 3));
 	}
 	
 }

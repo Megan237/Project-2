@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -11,6 +12,7 @@ public class FCFS implements IDiskAlgorithm {
 	@Override
 	public int calculateDistance(List<DiskRequest> requests, int headPosition) {
 
+		requests.sort((a, b) -> Integer.compare(a.getTimeOfArrival(), b.getTimeOfArrival()));
 		int totalDistance = 0;
 		int currentPosition = headPosition;
 		while (!requests.isEmpty()){
@@ -22,5 +24,4 @@ public class FCFS implements IDiskAlgorithm {
 
 		return totalDistance;
 	}
-
 }
